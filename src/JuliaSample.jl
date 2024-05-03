@@ -1,5 +1,7 @@
 module JuliaSample
 
-# Write your package code here.
+export twice
+
+twice(x) = 2 * x
 
 end

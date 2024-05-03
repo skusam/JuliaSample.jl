@@ -2,5 +2,8 @@ using JuliaSample
 using Test
 
 @testset "JuliaSample.jl" begin
-    # Write your tests here.
+
+    @test twice(1) == 2
+    @test twice(0.5) == 1
+
 end
