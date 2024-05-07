@@ -5,5 +5,6 @@ using Test
 
     @test twice(1) == 2
     @test twice(0.5) == 1
+    @test triple(1) == 3
 
 end

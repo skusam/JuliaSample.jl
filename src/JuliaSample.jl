@@ -1,6 +1,6 @@
 module JuliaSample
 
-export twice
+export twice, triple
 
 twice(x) = 2 * x
 
