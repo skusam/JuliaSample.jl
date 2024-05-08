@@ -6,7 +6,8 @@ using Test
     @test twice(1) == 2
     @test twice(0.5) == 1
     @test triple(1) == 3
-    
+    @inferred triple(1)
+
 end
 
 using Aqua
